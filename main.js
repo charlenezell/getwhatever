@@ -13,7 +13,7 @@ const puppeteer = require('puppeteer');
     await page.goto('http://m.100bt.com/zn/');
     await page.screenshot({
         path: 'example.png',
-        quality:100,
+        // quality:100,
         fullPage:true
     });
     await browser.close();
